@@ -21,6 +21,7 @@ html,body{
     background-position: 30%;
 }
 #right{
+    position: relative;
     width:80%;
     height:100%;
     background-color: rgb(255, 255, 255);
@@ -37,9 +38,6 @@ html,body{
     display:flex;
     align-items: center;
     justify-content: center;
-}
-#top img{
-    width:20px;
 }
 #top h6{
     color:#FFC400;
@@ -70,12 +68,9 @@ html,body{
 }
 #unik{
     font-family: "Hadaki";
-    font-size: 30px;
+    font-size: 27px;
 
 }
-
-
-
 #top i
 {
     color: white;
@@ -88,5 +83,35 @@ html,body{
     background-color: white;
     position: absolute;
     left: 47.5%;
-    top: 8%;
+    top: 10%;
 }
+#header{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left:40%;
+}
+#header h1{
+    color:#17BF44;
+    font-family: "Hadaki";
+    letter-spacing: 5px;
+    font-size:35px;
+}
+#header i{
+    color:#17BF44;
+    margin-left:350px;
+}
+#imgs{
+    display: flex;
+    width:100%;
+    height:50%;
+    position: absolute;
+    top:20%;
+    left:0%;
+    background-color: rgb(149, 186, 228);
+}
+/*#imgs #img{
+    background-image: url(https://images.unsplash.com/photo-1579888944880-d98341245702?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+}*/
